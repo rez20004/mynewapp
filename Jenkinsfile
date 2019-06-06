@@ -3,7 +3,7 @@ pipeline {
         node {label 'python'}
     }
     environment {
-        APPLICATION_NAME = 'python-nginx'
+        APPLICATION_NAME = 'mynewapp'
         GIT_REPO="http://github.com/rez20004/mynewapp"
         GIT_BRANCH="master"
         STAGE_TAG = "promoteToQA"
